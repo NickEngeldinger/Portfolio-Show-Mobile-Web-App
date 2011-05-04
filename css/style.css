@@ -1,0 +1,9 @@
+body {
+	font-family: 'Muli', sans-serif !important;
+}
+
+img {
+	border: solid 1px #FF0000;
+	margin: 0 auto;
+	width: 200px;
+}
