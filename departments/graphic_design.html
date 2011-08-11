@@ -2,6 +2,7 @@
 <html>
 <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
         <title>Ai Portfolio Show Directory</title>
         <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.css" />
@@ -10,39 +11,25 @@
         <script src="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.js"></script>
 </head>
 <body>
-        <div data-role="header">
-                <img src="../images/ai_logo.png" alt="The Art Intitute Logo" />
+        <div data-role="header" data-theme="x">
+                <img class="logo" src="../images/ai_logo.png" alt="The Art Intitute Logo" />
                 <h1>Portfolio Show<br />Directory</h1>
         </div>
-        <div data-role="content">
+        <div data-role="content" data-theme="z">
                 <img src="../images/gd.png" alt="Web Design and Interactive Media" />
                 <h2>Graphic Design</h2>
-                <ul data-role="listview" data-filter="true" data-filter-placeholder="Search Names" data-inset="true">
-                        <li data-role="list-divider">A</li>
-                        <li>Aaron, Hank</li>
-                        <li data-role="collapsible" data-collapsed="true">
-                                <h3>Adair, Kronda</h3>
-                                <p>Front end developer and bycicle afficianado.</p>
-                        </li>
-                        <li>Anderson, Eli</li>
-                        <li>Ames, Bob</li>
-                        <li data-role="list-divider">E</li>
-                        <li data-role="collapsible" data-collapsed="true">
-                                <h3>Engeldinger, Nick</h3>
-                                <p>I'm a front end developer who believes in semantic structures and design with a strong emphasis on usability. I enjoy working with HTML(5), CSS(3), Javascript, jQuery, PHP, Python and Ruby. I am currently work for Parthenon Software Group in St. Johns.</p>
-                                <a href="http://www.nickengeldinger.com">nickengeldinger.com</a>
-                        </li>
-			<li data-role="list-divider">P</li>
+                <ul id="grad_list" data-role="listview" data-filter="true" data-filter-placeholder="Search Names" data-inset="true" data-divider-theme="v" data-theme="x">
 			<li>Parker, Paige</li>
 			<li>Pederson, Katie</li>
-                        <li data-role="list-divider">S</li>
-                        <li data-role="collapsible" data-collapsed="true">
-                                <h3>Sorensen, Chad</h3>
-                                <p>Front end developer lorem ipsum wing ding ching chong.</p>
+       			<li data-role="collapsible" data-collapsed="true" data-theme="z">
+                                <h3>Woodward, Ashley</h3>
+                                <p>I am an extraordinary and confident woman living in integrity.</p>
+				<p>For me, every design opportunity is as much about the process as the end result. Covering a multitude of design vernacular, I enjoy experimenting with media or methods that are new to me. Ultimately, the work I deliver is steady, deliberate, and has been nurtured from start to finish.</p> 
+				<a href="mailto:woodwardea@gmail.com">woodwardea@gmail.com</a>
                         </li>
-                </ul>
+	        </ul>
         </div>
-        <div data-role="footer" data-position="fixed">
+        <div data-role="footer" data-position="fixed" data-id="nav_footer" data-theme="x">
                 <div data-role="navbar">
                         <ul>
                                 <li><a href="../index.html">Home</a></li>

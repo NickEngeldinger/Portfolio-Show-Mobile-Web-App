@@ -47,6 +47,7 @@
 .ui-body-x textarea,
 .ui-body-x button {
 	font-family: 'Muli', sans-serif;
+	font-size: 16px;
 }
 .ui-body-x .ui-link-inherit {
 	color: 					#333333;
@@ -109,3 +110,320 @@
 	font-family: 'Muli', sans-serif;
 	text-decoration: none;
 }
+
+/* Swatch Y The Secondary Styles --------------------------------------------------------------------------*/
+
+.ui-bar-y {
+	border: 1px solid 		#B3B3B3;
+	background: 			#e9eaeb;
+	color: 					#3E3E3E;
+	font-weight: bold;
+	text-shadow: 0 1px 1px 	#fff;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f0f0f0), to(#e9eaeb)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #f0f0f0, #e9eaeb); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #f0f0f0, #e9eaeb); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #f0f0f0, #e9eaeb); /* IE10 */
+	background-image:      -o-linear-gradient(top, #f0f0f0, #e9eaeb); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #f0f0f0, #e9eaeb);
+}
+
+.ui-bar-y,
+.ui-bar-y input,
+.ui-bar-y select,
+.ui-bar-y textarea,
+.ui-bar-y button {
+        font-family: 'Muli', sans-serif;
+}
+
+.ui-body-y {
+	border: 1px solid 		#B3B3B3;
+	color: 					#333333;
+	text-shadow: 0 1px 0 	#fff;
+	background: 			#f0f0f0;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ddd)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #eee, #ddd); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #eee, #ddd); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #eee, #ddd); /* IE10 */
+	background-image:      -o-linear-gradient(top, #eee, #ddd); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #eee, #ddd);
+}
+
+.ui-body-y,
+.ui-body-y input,
+.ui-body-y select,
+.ui-body-y textarea,
+.ui-body-y button {
+        font-family: 'Muli', sans-serif;
+}
+
+.ui-body-y .ui-link-inherit {
+	color: 					#333333;
+}
+.ui-body-y .ui-link {
+	color: 					#2489CE;
+	font-weight: bold;
+}
+
+.ui-btn-up-y {
+	border: 1px solid 		#ccc;
+	background: 			#eee;
+	font-weight: bold;
+	color: 					#444;
+	text-shadow: 0 1px 1px #f6f6f6;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fdfdfd), to(#eee)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #fdfdfd, #eee); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #fdfdfd, #eee); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #fdfdfd, #eee); /* IE10 */
+	background-image:      -o-linear-gradient(top, #fdfdfd, #eee); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #fdfdfd, #eee);
+}
+.ui-btn-up-y a.ui-link-inherit {
+	color: 					#2F3E46;
+}
+
+.ui-btn-hover-y {
+	border: 1px solid 		#bbb;
+	background: 			#dadada;
+	font-weight: bold;
+	color: 					#101010;
+	text-shadow: 0 1px 1px 	#fff;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#dadada)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #ededed, #dadada); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #ededed, #dadada); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #ededed, #dadada); /* IE10 */
+	background-image:      -o-linear-gradient(top, #ededed, #dadada); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #ededed, #dadada);
+}
+.ui-btn-hover-y a.ui-link-inherit {
+	color: 					#2F3E46;
+}
+.ui-btn-down-y {
+	border: 1px solid 		#808080;
+	background: 			#fdfdfd;
+	font-weight: bold;
+	color: 					#111111;
+	text-shadow: 0 1px 1px 	#ffffff;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#fdfdfd)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #eee, #fdfdfd); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #eee, #fdfdfd); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #eee, #fdfdfd); /* IE10 */
+	background-image:      -o-linear-gradient(top, #eee, #fdfdfd); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #eee, #fdfdfd);
+}
+.ui-btn-down-y a.ui-link-inherit {
+	color: 					#2F3E46;
+}
+
+.ui-btn-up-y,
+.ui-btn-hover-y,
+.ui-btn-down-y {
+        font-family: 'Muli', sans-serif;
+        text-decoration: none;
+}
+
+/* Z Swatch for department list collapsible panels --------------------------------------------------------*/
+
+.ui-bar-z {
+	border: none;
+	background: none;
+	color: 					#3E3E3E;
+	font-weight: bold;
+	text-shadow: 0 1px 1px 	#fff;
+}
+.ui-bar-z,
+.ui-bar-z input,
+.ui-bar-z select,
+.ui-bar-z textarea,
+.ui-bar-z button {
+        font-family: 'Muli', sans-serif;
+}
+.ui-body-z {
+	border: 1px solid 		#B3B3B3;
+	color: 					#333333;
+	text-shadow: 0 1px 0 	#fff;
+}
+.ui-body-z,
+.ui-body-z input,
+.ui-body-z select,
+.ui-body-z textarea,
+.ui-body-z button {
+        font-family: 'Muli', sans-serif;
+}
+.ui-body-z .ui-link-inherit {
+	color: 					#333333;
+}
+.ui-body-z .ui-link {
+	color: 					#E13F33;
+	font-weight: bold;
+}
+
+.ui-btn-up-z {
+	border: none;
+	background: none;
+	font-weight: bold;
+	color: 					#444;
+	text-shadow: 0 1px 1px #f6f6f6;
+}
+.ui-btn-up-z a.ui-link-inherit {
+	color: 					#2F3E46;
+}
+
+.ui-btn-hover-z {
+	border: none;
+	background: none;
+	font-weight: bold;
+	color: 					#101010;
+	text-shadow: 0 1px 1px 	#fff;
+}
+.ui-btn-hover-z a.ui-link-inherit {
+	color: 					#2F3E46;
+}
+.ui-btn-down-z {
+	border: none;
+	background: none;
+	font-weight: bold;
+	color: 					#111111;
+	text-shadow: 0 1px 1px 	#ffffff;
+}
+.ui-btn-down-z a.ui-link-inherit {
+	color: 					#2F3E46;
+}
+.ui-btn-up-z,
+.ui-btn-hover-z,
+.ui-btn-down-z {
+        font-family: 'Muli', sans-serif;
+	text-decoration: none;
+}
+
+#grad_list .ui-corner-all {
+	border-radius: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#grad_list h3 {
+	margin: 0;
+}
+
+.ui-footer .ui-btn-text {
+	font-size: 18px !important;
+}
+
+/* V Swatch for list dividers-----------------------------------------------------------------*/
+
+
+.ui-bar-v {
+	border: 1px solid 		#2A2A2A;
+	background: 			#111111;
+	color: 					#ffffff;
+	font-weight: bold;
+	text-shadow: 0 -1px 1px #000000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#111)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #3c3c3c, #111); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #3c3c3c, #111); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #3c3c3c, #111); /* IE10 */
+	background-image:      -o-linear-gradient(top, #3c3c3c, #111); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #3c3c3c, #111);
+}
+.ui-bar-v, 
+.ui-bar-v input, 
+.ui-bar-v select, 
+.ui-bar-v textarea, 
+.ui-bar-v button {
+        font-family: 'Muli', sans-serif;
+}
+.ui-bar-v .ui-link-inherit {
+	color: 					#fff;
+}
+.ui-bar-v .ui-link {
+	color: 					#7cc4e7;
+	font-weight: bold;
+}
+.ui-body-v {
+	border: 1px solid 		#2A2A2A;
+	background: 			#222222;
+	color: 					#fff;
+	 text-shadow: 0 1px 0 	#000;
+	font-weight: normal;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#666), to(#222)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #666, #222); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #666, #222); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #666, #222); /* IE10 */
+	background-image:      -o-linear-gradient(top, #666, #222); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #666, #222);	
+}
+.ui-body-v,
+.ui-body-v input,
+.ui-body-v select,
+.ui-body-v textarea,
+.ui-body-v button {
+        font-family: 'Muli', sans-serif;
+}
+.ui-body-v .ui-link-inherit {
+	color: 					#fff;
+}
+.ui-body-v .ui-link {
+	color: 					#2489CE;
+	font-weight: bold;
+}
+.ui-br {
+	border-bottom: rgb(130,130,130);
+	border-bottom: rgba(130,130,130,.3);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+.ui-btn-up-v {
+	border: 1px solid 		#222;
+	background: 			#333333;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 -1px 1px #000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#555), to(#333)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #555, #333); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #555, #333); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #555, #333); /* IE10 */
+	background-image:      -o-linear-gradient(top, #555, #333); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #555, #333);
+}
+.ui-btn-up-v a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-hover-v {
+	border: 1px solid 		#000;
+	background: 			#444444;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 -1px 1px #000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#666), to(#444)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #666, #444); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #666, #444); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #666, #444); /* IE10 */
+	background-image:      -o-linear-gradient(top, #666, #444); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #666, #444);
+}
+.ui-btn-hover-v a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-down-v {
+	border: 1px solid 		#000;
+	background: 			#3d3d3d;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 -1px 1px #000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#333), to(#5a5a5a)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #333, #5a5a5a); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #333, #5a5a5a); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #333, #5a5a5a); /* IE10 */
+	background-image:      -o-linear-gradient(top, #333, #5a5a5a); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #333, #5a5a5a);
+}
+.ui-btn-down-v a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-up-v,
+.ui-btn-hover-v,
+.ui-btn-down-v {
+        font-family: 'Muli', sans-serif;
+	text-decoration: none;
+}
+
