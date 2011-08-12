@@ -14,11 +14,6 @@ img.logo {
         width: 288px;
 }
 
-.campus img {
-        border: solid 1px #c3c3c3;
-        border-radius: 5px;
-}
-
 .dept_head {
 	font-size: 24px !important;
 	padding-bottom: 15px;
@@ -31,4 +26,12 @@ img.logo {
 
 .ui-li-desc {
 	white-space: normal !important;
+}
+
+.campus {
+	background: url(../images/show1.jpg) no-repeat;
+	border: solid 1px #c3c3c3;
+        border-radius: 5px;
+	height: 190px;
+	width: 290px;
 }
