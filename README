@@ -1,1 +1,4 @@
-This is a mobile web app built in jQuery Mobile, utilizing the Beta 2 version. Please disregard the initial commit dates, my Ubuntu Virtual Machine system time was set incorrectly.
+This is a mobile web app built in jQuery Mobile, utilizing the Beta 2 version.
+Some of the commit dates are off because my Ubuntu Virtual Machine system time is wonky.
+
+I've started compiling device test data here: https://spreadsheets.google.com/spreadsheet/ccc?key=0As9BE89_rctRdFdoRXZFN3pScTF5MHVIZkk1MGhLeHc&hl=en_US
