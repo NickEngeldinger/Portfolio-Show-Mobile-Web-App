@@ -9,11 +9,6 @@ img.logo {
         margin: 10px 0 0 20px;
 }
 
-.campus {
-        margin: 0 auto;
-        width: 288px;
-}
-
 .dept_head {
 	font-size: 24px !important;
 	padding-bottom: 15px;
@@ -29,9 +24,10 @@ img.logo {
 }
 
 .campus {
-	background: url(../images/show1.jpg) no-repeat;
+	background: url(../images/show_strip.jpg) 0 0 no-repeat;
 	border: solid 1px #c3c3c3;
         border-radius: 5px;
 	height: 190px;
+	margin: 0 auto;
 	width: 290px;
 }
