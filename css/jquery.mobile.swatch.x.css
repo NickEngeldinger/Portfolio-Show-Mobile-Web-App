@@ -73,18 +73,19 @@
 	color: 					#fff;
 }
 .ui-btn-hover-x {
-	border: 1px solid 		#000;
-	background: 			#444444;
-	font-weight: bold;
-	color: 					#fff;
-	text-shadow: 0 -1px 1px #000;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#666), to(#444)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient(top, #666, #444); /* Chrome 10+, Saf5.1+ */
-	background-image:    -moz-linear-gradient(top, #666, #444); /* FF3.6 */
-	background-image:     -ms-linear-gradient(top, #666, #444); /* IE10 */
-	background-image:      -o-linear-gradient(top, #666, #444); /* Opera 11.10+ */
-	background-image:         linear-gradient(top, #666, #444);
+	border: 1px solid               #c3c3c3;
+        background:                     #2567ab;
+        font-weight: bold;
+        color:                                  #fff;
+        text-shadow: 0 -1px 1px #145072;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#f46b60), to(#ce1406)); /* Saf4+, Chrome */
+        background-image: -webkit-linear-gradient(top, #f46b60, #ce1406); /* Chrome 10+, Saf5.1+ */
+        background-image:    -moz-linear-gradient(top, #f46b60, #ce1406); /* FF3.6 */
+        background-image:     -ms-linear-gradient(top, #f46b60, #ce1406); /* IE10 */
+        background-image:      -o-linear-gradient(top, #f46b60, #ce1406); /* Opera 11.10+ */
+        background-image:         linear-gradient(top, #f46b60, #ce1406);
 }
+
 .ui-btn-hover-x a.ui-link-inherit {
 	color:				#fff;
 }

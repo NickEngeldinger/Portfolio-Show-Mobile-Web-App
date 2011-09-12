@@ -1,4 +1,8 @@
-/* --------- Portfolio Show Mobile App Structure Styles------------------*/
+/* --------- Portfolio Show Mobile App Structure & Styles------------------*/
+
+body {
+	white-space: normal !important;
+}
 
 h1 {
         font-size: 18px !important;
@@ -30,4 +34,20 @@ img.logo {
 	height: 190px;
 	margin: 0 auto;
 	width: 290px;
+}
+
+.portfolio_class li a img {
+	margin-top: 0;
+}
+
+.gd {
+	margin-bottom: 30px;
+}
+
+#grad_list li {
+	font-weight: bold;
+}
+
+h2 {
+	margin-bottom: 13px;
 }
