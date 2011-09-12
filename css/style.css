@@ -1,6 +1,6 @@
 /* --------- Portfolio Show Mobile App Structure & Styles------------------*/
 
-body {
+h1.ui-title {
 	white-space: normal !important;
 }
 
@@ -51,3 +51,9 @@ img.logo {
 h2 {
 	margin-bottom: 13px;
 }
+
+.about p a {
+	color: #333;
+}
+
+

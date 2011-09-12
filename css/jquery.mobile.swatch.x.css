@@ -1,3 +1,48 @@
+/* --------- Button styles --------------------*/
+
+.ui-btn-down-f {
+        border: 1px solid               #c3c3c3;
+        background:                     #333;
+        font-weight: bold;
+        color:                                  #fff;
+        text-shadow: 0 -1px 1px #225377;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#ce1406), to(#f46b60)); /* Saf4+, Chrome */
+        background-image: -webkit-linear-gradient(top, #ce1406, #f46b60); /* Chrome 10+, Saf5.1+ */
+        background-image:    -moz-linear-gradient(top, #ce1406, #f46b60); /* FF3.6 */
+        background-image:     -ms-linear-gradient(top, #ce1406, #f46b60); /* IE10 */
+        background-image:      -o-linear-gradient(top, #ce1406, #f46b60); /* Opera 11.10+ */
+        background-image:         linear-gradient(top, #ce1406, #f46b60);
+}
+
+.ui-btn-up-f {
+        border: 1px solid               #c3c3c3;
+        background:                     #333;
+        font-weight: bold;
+        color:                                  #fff;
+        text-shadow: 0 -1px 1px #145072;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#f46b60), to(#ce1406)); /* Saf4+, Chrome */
+        background-image: -webkit-linear-gradient(top, #f46b60, #ce1406); /* Chrome 10+, Saf5.1+ */
+        background-image:    -moz-linear-gradient(top, #f46b60, #ce1406); /* FF3.6 */
+        background-image:     -ms-linear-gradient(top, #f46b60, #ce1406); /* IE10 */
+        background-image:      -o-linear-gradient(top, #f46b60, #ce1406); /* Opera 11.10+ */
+        background-image:         linear-gradient(top, #f46b60, #ce1406);
+}
+
+.ui-btn-hover-f {
+        border: 1px solid               #c3c3c3;
+        background:                     #2567ab;
+        font-weight: bold;
+        color:                                  #fff;
+        text-shadow: 0 -1px 1px #145072;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#f46b60), to(#ce1406)); /* Saf4+, Chrome */
+        background-image: -webkit-linear-gradient(top, #f46b60, #ce1406); /* Chrome 10+, Saf5.1+ */
+        background-image:    -moz-linear-gradient(top, #f46b60, #ce1406); /* FF3.6 */
+        background-image:     -ms-linear-gradient(top, #f46b60, #ce1406); /* IE10 */
+        background-image:      -o-linear-gradient(top, #f46b60, #ce1406); /* Opera 11.10+ */
+        background-image:         linear-gradient(top, #f46b60, #ce1406);
+}
+
+
 /* X ------- Portfolio Show jQuery Mobile App Swatch --------------------- */
 
 .ui-bar-x {
@@ -53,7 +98,7 @@
 	color: 					#333333;
 }
 .ui-body-x .ui-link {
-	color: 					#2489CE;
+	color: 					#333333;
 	font-weight: bold;
 }
 .ui-btn-up-x {
