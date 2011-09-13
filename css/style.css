@@ -4,10 +4,6 @@ h1.ui-title {
 	white-space: normal !important;
 }
 
-h1 {
-        font-size: 18px !important;
-}
-
 img.logo {
         float: left;
         margin: 10px 0 0 20px;
@@ -55,5 +51,3 @@ h2 {
 .about p a {
 	color: #333;
 }
-
-
